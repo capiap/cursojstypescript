@@ -15,7 +15,7 @@ export default defineConfig([
       ecmaVersion: "latest",
 
       // 🔥 Correção obrigatória para ativar o autofix ao salvar
-      sourceType: "module"
+      sourceType: "module",
     },
 
     plugins: {
