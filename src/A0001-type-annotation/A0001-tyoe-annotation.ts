@@ -24,4 +24,8 @@ function soma(x: number, y: number){
 };
 const soma2: (x: number, y: number) => number = (x, y) => x + y;
 
+function square(x: number){
+  return x ** (1/2);
+}
 
+console.log(square(49));
